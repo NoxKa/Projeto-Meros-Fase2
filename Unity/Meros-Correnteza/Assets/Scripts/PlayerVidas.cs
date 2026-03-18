@@ -1,0 +1,42 @@
+using Unity.VisualScripting;
+using UnityEditor;
+using UnityEngine;
+using System.Collections;
+
+public class PlayerVidas : MonoBehaviour
+{
+    public int vidaMax;
+    private int vidaAtual;
+    private bool imortal = false;
+    private Animator playerAnim;
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        vidaAtual = vidaMax;
+        playerAnim = GetComponent<Animator>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Entulhos") & !imortal)
+        {
+            vidaAtual -= 1;
+            imortal = true;
+            StartCoroutine(Imortal());
+            print(vidaAtual);
+        }
+    }
+    private IEnumerator Imortal()
+    {
+        float tempoImortal = 2;
+        playerAnim.Play("Flash");
+        yield return new WaitForSeconds(tempoImortal);
+        imortal = false;
+        playerAnim.Play("Idle");
+    }
+}

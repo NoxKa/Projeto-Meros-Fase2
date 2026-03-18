@@ -7,7 +7,7 @@ public class PlayerMoviment : MonoBehaviour
 {
     public int speed;
     private float boundX = 9.5f;
-    private float boundY = 4.5f;
+    private float boundY = 4.3f;
     private Rigidbody2D rigidBody;
     private Vector2 moveInput;
     public InputActionAsset InputActions;
@@ -35,5 +35,24 @@ public class PlayerMoviment : MonoBehaviour
     {
         moveInput = moveAction.ReadValue<Vector2>();
         rigidBody.linearVelocity = moveInput * speed * Time.fixedDeltaTime;
+        if (transform.position.x < -boundX)
+        {
+            transform.position = new Vector2(-boundX, transform.position.y);
+        }else if (transform.position.x > boundX)
+        {
+            transform.position = new Vector2(boundX, transform.position.y);
+        }
+        if (transform.position.y < -boundY)
+        {
+            transform.position = new Vector2(transform.position.x, -boundY);
+        }else if (transform.position.y > boundY)
+        {
+            transform.position = new Vector2(transform.position.x, boundY);
+        }
     }
 }
+
+/*if (transform.position.x < -xRange)
+        {
+            transform.position = new Vector3(-xRange, transform.position.y, transform.position.y);
+        }*/
