@@ -21,15 +21,13 @@ public class PlayerVidas : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void MudarVida(int vidaMod)
     {
-        if(collision.CompareTag("Entulhos") & !imortal)
-        {
-            vidaAtual -= 1;
-            imortal = true;
-            StartCoroutine(Imortal());
-            print(vidaAtual);
-        }
+        var placar = FindAnyObjectByType<UI_Manager>();
+        vidaAtual -= vidaMod;
+        imortal = true;
+        placar.AtualizarVida(vidaAtual);
+        StartCoroutine(Imortal());
     }
     private IEnumerator Imortal()
     {
