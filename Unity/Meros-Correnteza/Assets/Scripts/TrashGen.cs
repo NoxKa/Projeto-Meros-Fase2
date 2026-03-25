@@ -21,9 +21,11 @@ public class TrashGen : MonoBehaviour
     {
         float genY;
         int entulhosIndex;
+        float genTime;
         while (true)
         {
-            yield return new WaitForSeconds(3);
+            genTime = Random.Range(1, 8);
+            yield return new WaitForSeconds(genTime);
             entulhosIndex = Random.Range(0, entulhosPrefabs.Length);
             genY = Random.Range(-4f, 4f);
             Instantiate(entulhosPrefabs[entulhosIndex], new Vector2(genX, genY), entulhosPrefabs[entulhosIndex].transform.rotation);
