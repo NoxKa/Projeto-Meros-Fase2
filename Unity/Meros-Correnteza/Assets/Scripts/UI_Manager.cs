@@ -4,6 +4,8 @@ using UnityEngine;
 public class UI_Manager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI textVida;
+    [SerializeField] private TextMeshProUGUI textPontos;
+    private int pontosAtual = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,5 +23,10 @@ public class UI_Manager : MonoBehaviour
         {
             textVida.text = "Vida: "+vida.ToString();
         }
+    }
+    public void AtualizarPontos(int pontosObt)
+    {
+        pontosAtual += pontosObt;
+        textPontos.text = pontosAtual.ToString();
     }
 }

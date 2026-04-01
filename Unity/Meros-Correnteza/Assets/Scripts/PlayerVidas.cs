@@ -23,11 +23,14 @@ public class PlayerVidas : MonoBehaviour
     }
     public void MudarVida(int vidaMod)
     {
-        var placar = FindAnyObjectByType<UI_Manager>();
-        vidaAtual -= vidaMod;
-        imortal = true;
-        placar.AtualizarVida(vidaAtual);
-        StartCoroutine(Imortal());
+        if (!imortal)
+        {
+            var placar = FindAnyObjectByType<UI_Manager>();
+            vidaAtual -= vidaMod;
+            imortal = true;
+            placar.AtualizarVida(vidaAtual);
+            StartCoroutine(Imortal());
+        }
     }
     private IEnumerator Imortal()
     {
