@@ -18,8 +18,10 @@ public class EntulhoColider : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
+        print("Colide");
         if (other.gameObject.CompareTag("Player"))
         {
+            print("Colide Player");
             if (isPonto)
             {
                 var placar = FindAnyObjectByType<UI_Manager>();

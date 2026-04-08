@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3452107790369228734}
   - component: {fileID: 2840142995957845530}
   - component: {fileID: 3131059402361616426}
+  - component: {fileID: 4521265310509864913}
   m_Layer: 0
   m_Name: Sacola
   m_TagString: Entulhos
@@ -166,3 +167,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EntulhoColider
   dano: 1
+  isPonto: 0
+--- !u!114 &4521265310509864913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478922911425632306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a21d6cf128a3a4d9084e9767bf606e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyOutLayout
+  maxX: -15
