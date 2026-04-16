@@ -5,6 +5,7 @@ public class UI_Manager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI textVida;
     [SerializeField] private TextMeshProUGUI textPontos;
+    public GameObject splashUI;
     private int pontosAtual = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
