@@ -35,7 +35,6 @@ public class PlayerVidas : MonoBehaviour
     private IEnumerator Imortal()
     {
         float tempoImortal = 2;
-        //playerAnim.Play("Flash");
         playerAnim.SetBool("isFlashed", true);
         yield return new WaitForSeconds(tempoImortal);
         imortal = false;

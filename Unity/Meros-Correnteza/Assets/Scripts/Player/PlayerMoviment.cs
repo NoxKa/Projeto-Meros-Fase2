@@ -14,10 +14,12 @@ public class PlayerMoviment : MonoBehaviour
     private Vector2 moveInput;
     public InputActionAsset InputActions;
     private InputAction moveAction;
+    private Animator playerAnim;
     private bool isPreso = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        playerAnim = GetComponent<Animator>();
         rigidBody = GetComponent<Rigidbody2D>();
     }
     void Awake()
@@ -36,6 +38,7 @@ public class PlayerMoviment : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Animations();
         moveInput = moveAction.ReadValue<Vector2>();
         rigidBody.linearVelocity = moveInput * speed * Time.fixedDeltaTime;
         if (transform.position.x < -boundX)
@@ -77,6 +80,10 @@ public class PlayerMoviment : MonoBehaviour
             isPreso = false;
             InputActions.FindActionMap("Player").Enable();
         }
+    }
+    private void Animations()
+    {
+        playerAnim.SetBool("isStruggled", isPreso);
     }
 }
 
