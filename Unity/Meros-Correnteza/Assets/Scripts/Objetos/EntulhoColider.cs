@@ -5,7 +5,6 @@ public class EntulhoColider : MonoBehaviour
 {
     public int dano;
     public bool isPonto;
-    public int typeOfTrapped; // (0: não prende o jogador, 1: prende ele por alguns segundos, 2: prende ele até ele se soltar)
     void Start()
     {
         
@@ -19,16 +18,17 @@ public class EntulhoColider : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            var playerVidas = other.gameObject.GetComponent<PlayerVidas>();
+            var placar = FindAnyObjectByType<UI_Manager>();
             if (isPonto)
             {
-                var placar = FindAnyObjectByType<UI_Manager>();
                 placar.AtualizarPontos(1);
+                playerVidas.HealPoints(1);
                 Destroy(gameObject);
             }
             else if (!isPonto)
             {
-                var playerVidas = other.gameObject.GetComponent<PlayerVidas>();
-                playerVidas.MudarVida(dano);
+                playerVidas.MudarVida(-dano);
             }
         }
     }

@@ -5,6 +5,7 @@ public class UI_Manager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI textVida;
     [SerializeField] private TextMeshProUGUI textPontos;
+    [SerializeField] private TextMeshProUGUI textHeal;
     public GameObject splashUI;
     private int pontosAtual = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -29,5 +30,9 @@ public class UI_Manager : MonoBehaviour
     {
         pontosAtual += pontosObt;
         textPontos.text = pontosAtual.ToString();
+    }
+    public void HealPoints(int pontosHeal)
+    {
+        textHeal.text = pontosHeal.ToString();
     }
 }
