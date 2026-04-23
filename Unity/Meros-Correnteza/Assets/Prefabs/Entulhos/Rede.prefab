@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1478922911425632306
+--- !u!1 &6428282200412367488
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,42 +8,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1347703868425665229}
-  - component: {fileID: 452933255213075222}
-  - component: {fileID: 3452107790369228734}
-  - component: {fileID: 2840142995957845530}
-  - component: {fileID: 3131059402361616426}
-  - component: {fileID: 4521265310509864913}
+  - component: {fileID: 6545990529749298072}
+  - component: {fileID: 1387634878879410640}
+  - component: {fileID: 1978184087146698991}
+  - component: {fileID: 6565522464136989567}
+  - component: {fileID: 7023739630427757272}
+  - component: {fileID: 8261151629462194062}
   m_Layer: 0
-  m_Name: Sacola
+  m_Name: Rede
   m_TagString: Entulhos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1347703868425665229
+--- !u!4 &6545990529749298072
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478922911425632306}
+  m_GameObject: {fileID: 6428282200412367488}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.6, y: 1.26, z: 0}
+  m_LocalPosition: {x: 10.2, y: -1.92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &452933255213075222
+--- !u!212 &1387634878879410640
 SpriteRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478922911425632306}
+  m_GameObject: {fileID: 6428282200412367488}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -86,7 +86,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -95,26 +95,26 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &3452107790369228734
+--- !u!114 &1978184087146698991
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478922911425632306}
+  m_GameObject: {fileID: 6428282200412367488}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb35b5dee66d9d8418a1b565fceeaa3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveLeft
   speedX: 2
---- !u!61 &2840142995957845530
+--- !u!61 &6565522464136989567
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478922911425632306}
+  m_GameObject: {fileID: 6428282200412367488}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -154,31 +154,28 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &3131059402361616426
+--- !u!114 &7023739630427757272
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478922911425632306}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db7cccb231a0bd54a9bd0781dec40c95, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EntulhoColider
-  dano: 1
-  isPonto: 0
-  typeOfTrapped: 2
---- !u!114 &4521265310509864913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478922911425632306}
+  m_GameObject: {fileID: 6428282200412367488}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66a21d6cf128a3a4d9084e9767bf606e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutLayout
-  maxX: -15
+--- !u!114 &8261151629462194062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6428282200412367488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f02f94c64563d44ab1475f5b2f9fa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PrendeCollider
+  isDebativel: 0

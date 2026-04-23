@@ -2,6 +2,8 @@ using System.Threading;
 using UnityEditor.Rendering.LookDev;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;
+using NUnit.Framework;
 
 public class PlayerMoviment : MonoBehaviour
 {
@@ -12,6 +14,7 @@ public class PlayerMoviment : MonoBehaviour
     private Vector2 moveInput;
     public InputActionAsset InputActions;
     private InputAction moveAction;
+    private bool isPreso = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -48,6 +51,31 @@ public class PlayerMoviment : MonoBehaviour
         }else if (transform.position.y > boundY)
         {
             transform.position = new Vector2(transform.position.x, boundY);
+        }
+    }
+    public void StopPlayer(bool debater)
+    {
+        if (!isPreso)
+        {
+            isPreso = true;
+            InputActions.FindActionMap("Player").Disable();
+            StartCoroutine(Desprender());
+            if(debater)
+            {
+                Debug.Log("Debativel");
+            }else
+            {
+                Debug.Log("Não debativel");
+            }
+        }
+    }
+    private IEnumerator Desprender()
+    {
+        yield return new WaitForSeconds(3);
+        if (isPreso)
+        {
+            isPreso = false;
+            InputActions.FindActionMap("Player").Enable();
         }
     }
 }
