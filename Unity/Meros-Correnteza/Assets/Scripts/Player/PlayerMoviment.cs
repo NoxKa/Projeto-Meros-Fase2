@@ -7,16 +7,15 @@ using NUnit.Framework;
 
 public class PlayerMoviment : MonoBehaviour
 {
-    public int speed;
-    private float boundX = 9.5f;
-    private float boundY = 4.3f;
+    public int speed; // Velocidade do player
+    private float boundX = 9.5f; // Limite X
+    private float boundY = 4.3f; // Limite Y
     private Rigidbody2D rigidBody;
-    private Vector2 moveInput;
-    public InputActionAsset InputActions;
+    private Vector2 moveInput; // Input de movimento
+    public InputActionAsset InputActions; // Mapa de movimento do player
     private InputAction moveAction;
     private Animator playerAnim;
-    private bool isPreso = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private bool isPreso = false; // Verifica se o player pode se mover
     void Start()
     {
         playerAnim = GetComponent<Animator>();
@@ -24,7 +23,7 @@ public class PlayerMoviment : MonoBehaviour
     }
     void Awake()
     {
-        moveAction = InputSystem.actions.FindAction("Move");
+        moveAction = InputSystem.actions.FindAction("Move"); // Ação de mover (Vector2)
     }
     void OnEnable()
     {
@@ -38,10 +37,14 @@ public class PlayerMoviment : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Animations();
-        moveInput = moveAction.ReadValue<Vector2>();
-        rigidBody.linearVelocity = moveInput * speed * Time.fixedDeltaTime;
-        if (transform.position.x < -boundX)
+        Animations(); // Função de animações
+        MovePlayer(); // Função de movimento
+    }
+    public void MovePlayer() // Movimentação do player
+    {
+        moveInput = moveAction.ReadValue<Vector2>(); // Pega o valor das teclas de movimento
+        rigidBody.linearVelocity = moveInput * speed * Time.fixedDeltaTime; // Movimenta o player
+        if (transform.position.x < -boundX) // Trava nas bordas
         {
             transform.position = new Vector2(-boundX, transform.position.y);
         }else if (transform.position.x > boundX)
@@ -56,38 +59,32 @@ public class PlayerMoviment : MonoBehaviour
             transform.position = new Vector2(transform.position.x, boundY);
         }
     }
-    public void StopPlayer(bool debater)
+    public void StopPlayer(bool debater) // imobiliza o player
     {
         if (!isPreso)
         {
-            isPreso = true;
-            InputActions.FindActionMap("Player").Disable();
-            StartCoroutine(Desprender());
-            if(debater)
+            isPreso = true; // Deixa ele preso
+            InputActions.FindActionMap("Player").Disable(); // Desativa o mapa de movimento
+            if(debater) // Possibilidade de se debater
             {
                 Debug.Log("Debativel");
             }else
             {
-                Debug.Log("Não debativel");
+                StartCoroutine(Desprender()); // Corritina para se soltar
             }
         }
     }
-    private IEnumerator Desprender()
+    private IEnumerator Desprender() // Corrotina de se desprender
     {
         yield return new WaitForSeconds(3);
         if (isPreso)
         {
             isPreso = false;
-            InputActions.FindActionMap("Player").Enable();
+            InputActions.FindActionMap("Player").Enable(); // Ativa a movimentação do player
         }
     }
     private void Animations()
     {
-        playerAnim.SetBool("isStruggled", isPreso);
+        playerAnim.SetBool("isStruggled", isPreso); // Variavel de preso
     }
 }
-
-/*if (transform.position.x < -xRange)
-        {
-            transform.position = new Vector3(-xRange, transform.position.y, transform.position.y);
-        }*/

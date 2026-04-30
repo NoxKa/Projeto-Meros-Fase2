@@ -2,14 +2,12 @@ using UnityEngine;
 
 public class PrendeCollider : MonoBehaviour
 {
-    public bool isDebativel;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public bool isDebativel; // Verifica se o player pode ativamente escapar
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -18,14 +16,13 @@ public class PrendeCollider : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            PlayerMoviment playerMoviment;
-            playerMoviment = GameObject.Find("Player").GetComponent<PlayerMoviment>();
+            PlayerMoviment playerMoviment = GameObject.Find("Player").GetComponent<PlayerMoviment>(); // Pega o script de movimento do player
             if (isDebativel)
             {
-                playerMoviment.StopPlayer(true);
+                playerMoviment.StopPlayer(true); // Imobiliza o player (pode se debater)
             }else
             {
-                playerMoviment.StopPlayer(false);
+                playerMoviment.StopPlayer(false); // Imobiliza o player (não pode se debater)
             }
             Destroy(this.gameObject);
         }

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DestroyOutLayout : MonoBehaviour
 {
-    private float maxX = -15;
+    private float maxX = -15; // Valor limite de X
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

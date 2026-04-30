@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class EntulhoColider : MonoBehaviour
 {
-    public int dano;
-    public bool isPonto;
+    public int dano; // Dano do entulho
+    public bool isPonto; // Verifica se é um ponto
     void Start()
     {
         
@@ -18,17 +18,17 @@ public class EntulhoColider : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            var playerVidas = other.gameObject.GetComponent<PlayerVidas>();
-            var placar = FindAnyObjectByType<UI_Manager>();
+            var playerVidas = other.gameObject.GetComponent<PlayerVidas>(); // Pega o script de vidas do player
+            var placar = FindAnyObjectByType<UI_Manager>(); // Pega o script do placar
             if (isPonto)
             {
-                placar.AtualizarPontos(1);
-                playerVidas.HealPoints(1);
+                placar.AtualizarPontos(1); // Altera o UI de ponto
+                playerVidas.HealPoints(1); // Aumenta o valor de "regeneração" no script de vida
                 Destroy(gameObject);
             }
             else if (!isPonto)
             {
-                playerVidas.MudarVida(-dano);
+                playerVidas.MudarVida(-dano); // Altera a vida do player nos scipt dele
             }
         }
     }

@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class SplashColision : MonoBehaviour
 {
-   private GameObject splashUI;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+   private GameObject splashUI; // Imagem de splash no canvas
     void Start()
     {
         splashUI = FindFirstObjectByType<UI_Manager>().splashUI;
@@ -16,7 +15,7 @@ public class SplashColision : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        splashUI.SetActive(true);
+        splashUI.SetActive(true); // Ativa o splash
         Destroy(this.gameObject);
     }
 }
