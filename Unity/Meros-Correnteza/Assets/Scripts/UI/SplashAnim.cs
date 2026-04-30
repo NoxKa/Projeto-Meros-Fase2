@@ -1,20 +1,28 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class SplashAnim : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private Animator splashAnimator;
     void Start()
     {
-        
+        splashAnimator = GetComponent<Animator>();   
     }   
 
-    // Update is called once per frame
     void Update()
     {
         
     }
-    public void OnFinishAnimation()
+    void OnEnable()
     {
-        this.gameObject.SetActive(false);
+        splashAnimator.Play("Splash", 0, 0f);
+    }
+    public void OnFinishAnimation() // Desativa o splash quando acaba a animação
+    {
+        gameObject.SetActive(false);
+    }
+    public void StartAnimation()
+    {
+        splashAnimator.Play("Splash", 0, 0f);
     }
 }

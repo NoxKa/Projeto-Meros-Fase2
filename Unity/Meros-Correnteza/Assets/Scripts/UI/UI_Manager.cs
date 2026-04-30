@@ -3,35 +3,33 @@ using UnityEngine;
 
 public class UI_Manager : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI textVida;
-    [SerializeField] private TextMeshProUGUI textPontos;
-    [SerializeField] private TextMeshProUGUI textHeal;
-    public GameObject splashUI;
+    [SerializeField] private TextMeshProUGUI textVida; // Text de vida
+    [SerializeField] private TextMeshProUGUI textPontos; // Text de pontos
+    [SerializeField] private TextMeshProUGUI textHeal; // Text de "regeneração"
+    public GameObject splashUI; // Referencia da imagem splash para prefabs
     private int pontosAtual = 0;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
     }
-    public void AtualizarVida(int vida)
+    public void AtualizarVida(int vida) // Altera o texto de vida
     {
         if(textVida != null)
         {
             textVida.text = "Vida: "+vida.ToString();
         }
     }
-    public void AtualizarPontos(int pontosObt)
+    public void AtualizarPontos(int pontosObt) // Atualiza e altera o texto de pontos
     {
-        pontosAtual += pontosObt;
-        textPontos.text = pontosAtual.ToString();
+        pontosAtual += pontosObt; // Soma os pontos
+        textPontos.text = pontosAtual.ToString(); // Altera o texto
     }
-    public void HealPoints(int pontosHeal)
+    public void HealPoints(int pontosHeal) // Altera o texto de regeneração (baseado no playerVidas)
     {
         textHeal.text = pontosHeal.ToString();
     }
