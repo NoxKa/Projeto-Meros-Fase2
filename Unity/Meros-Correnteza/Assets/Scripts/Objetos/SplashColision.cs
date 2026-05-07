@@ -19,7 +19,6 @@ public class SplashColision : MonoBehaviour
     {
         splashUI.SetActive(false); // Ativa o splash
         splashUI.SetActive(true); // Ativa o splash
-        splashAnim.StartAnimation();
-        Destroy(this.gameObject);
+        Destroy(gameObject);
     }
 }

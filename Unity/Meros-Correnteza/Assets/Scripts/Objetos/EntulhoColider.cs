@@ -5,9 +5,14 @@ public class EntulhoColider : MonoBehaviour
 {
     public int dano; // Dano do entulho
     public bool isPonto; // Verifica se é um ponto
+    [SerializeField] Sprite[] sprites;
+    private SpriteRenderer filhoSpriteRenderer;
+    private Transform filhoTransform;
     void Start()
     {
-        
+        filhoSpriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        filhoTransform = GetComponentInChildren<Transform>();
+        SetSprite();
     }
 
     void Update()
@@ -29,7 +34,18 @@ public class EntulhoColider : MonoBehaviour
             else if (!isPonto)
             {
                 playerVidas.MudarVida(-dano); // Altera a vida do player nos scipt dele
+                Destroy(gameObject);
             }
         }
+    }
+    private void SetSprite()
+    {
+        if (sprites.Length > 0)
+        {
+            int indice = Random.Range(0, sprites.Length);
+            filhoSpriteRenderer.sprite = sprites[indice];
+        }
+        int rotar = Random.Range(0, 360);
+        filhoTransform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, rotar);
     }
 }

@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.6, y: 1.26, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -168,6 +168,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EntulhoColider
   dano: 1
   isPonto: 0
+  sprites:
+  - {fileID: 21300000, guid: a9a8ec67078952344ad9ebd2e2e37d04, type: 3}
+  - {fileID: 21300000, guid: 59e33cc2751d1774c8dd075f6d4b6af8, type: 3}
+  - {fileID: 21300000, guid: b40e603e9002b9d4888cce93ed8db178, type: 3}
+  - {fileID: 21300000, guid: 3cba4e6928674724f97c9ce38f688085, type: 3}
+  - {fileID: 21300000, guid: e1e755b19591a1840b24485876cbec64, type: 3}
+  - {fileID: 21300000, guid: 36529fbe2d6b2fc45ac268b2539fcd21, type: 3}
 --- !u!114 &4521265310509864913
 MonoBehaviour:
   m_ObjectHideFlags: 0
