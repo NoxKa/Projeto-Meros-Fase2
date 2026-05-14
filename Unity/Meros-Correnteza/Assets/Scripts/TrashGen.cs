@@ -13,7 +13,7 @@ public class ObjectsObstaculos
 
 public class TrashGen : MonoBehaviour
 {
-    [SerializeField] private List<ObjectsObstaculos> objetosObstaculos;
+    [SerializeField] private List<ObjectsObstaculos> objetos;
     [SerializeField] private float genX; // Posição inicial X
     [SerializeField] private float genYrange; // Variação de altura (metade da tela)
     private int fase; // Numero da fase
@@ -32,6 +32,8 @@ public class TrashGen : MonoBehaviour
     }
     private IEnumerator GerarEntulhos() // Corrotina de geração de entulhos
     {
+        ObjectsObstaculos entulho = new ObjectsObstaculos();
+        entulho = GetKey("entulho");
         float genY; // Posição inicial Y
         int entulhosIndex; // Tipo de entulho
         float genTime; // Intervalo de spawn
@@ -61,5 +63,16 @@ public class TrashGen : MonoBehaviour
             genY = Random.Range(-genYrange, genYrange); // Define a posição Y
             Instantiate(entulhosPrefabs[entulhosIndex], new Vector2(genX, genY), entulhosPrefabs[entulhosIndex].transform.rotation); // Instancia a prefab
         }
+    }
+    private ObjectsObstaculos GetKey(string alvo)
+    {
+        foreach (ObjectsObstaculos objeto in objetos)
+        {
+            if (objeto.nome == alvo)
+            {
+                return objeto;
+            }
+        }
+        return null;
     }
 }
