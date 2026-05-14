@@ -457,7 +457,6 @@ MonoBehaviour:
   textVida: {fileID: 330303343}
   textPontos: {fileID: 1877011740}
   textHeal: {fileID: 1871017986}
-  splashUI: {fileID: 1113965504}
 --- !u!1 &787996067
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,7 +561,7 @@ GameObject:
   - component: {fileID: 990024949}
   - component: {fileID: 990024950}
   m_Layer: 5
-  m_Name: Progrssao
+  m_Name: Progress
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -993,33 +992,6 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 9585365fa058c184c91a78d1c688c244, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!1 &1749145789 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1478922911425632306, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
-  m_PrefabInstance: {fileID: 2821155906420527124}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1749145796
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1749145789}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d5659b9648d577d4799f3515a424448e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1535,6 +1507,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 128c5f0b476bb7a4484a01a68992da67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrashGen
+  objetosObstaculos:
+  - nome: entulho
+    objectPrefab: {fileID: 1478922911425632306, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
+    tempoMed: 5
+    tempoVariavel: 3
+  - nome: entulho
+    objectPrefab: {fileID: 1478922911425632306, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
+    tempoMed: 5
+    tempoVariavel: 3
   genX: 12
   genYrange: 4
   entulhosPrefabs:
@@ -1542,66 +1523,7 @@ MonoBehaviour:
   - {fileID: 500373990431399905, guid: e99231c4bcc1b2b41afbd07633006c1c, type: 3}
   - {fileID: 6428282200412367488, guid: 037e8893a0b549748b8de3526c37eebb, type: 3}
   - {fileID: 1866929808743226936, guid: 7e06a78f25ce49d41b9b87b39416d1fd, type: 3}
---- !u!1001 &2821155906420527124
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1347703868425665229, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 7.27
-      objectReference: {fileID: 0}
-    - target: {fileID: 1347703868425665229, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 1347703868425665229, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1347703868425665229, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1347703868425665229, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1347703868425665229, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1347703868425665229, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1347703868425665229, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1347703868425665229, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1347703868425665229, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1478922911425632306, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
-      propertyPath: m_Name
-      value: Sacola
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1478922911425632306, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1749145796}
-  m_SourcePrefab: {fileID: 100100000, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
+  splashUI: {fileID: 1113965504}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1611,4 +1533,3 @@ SceneRoots:
   - {fileID: 2093277454}
   - {fileID: 551829440}
   - {fileID: 164077054}
-  - {fileID: 2821155906420527124}

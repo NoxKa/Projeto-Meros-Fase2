@@ -6,7 +6,7 @@ public class UI_Manager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textVida; // Text de vida
     [SerializeField] private TextMeshProUGUI textPontos; // Text de pontos
     [SerializeField] private TextMeshProUGUI textHeal; // Text de "regeneração"
-    public GameObject splashUI; // Referencia da imagem splash para prefabs
+
     private int pontosAtual = 0;
     void Start()
     {

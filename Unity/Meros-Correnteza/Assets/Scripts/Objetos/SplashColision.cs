@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class SplashColision : MonoBehaviour
@@ -5,7 +6,6 @@ public class SplashColision : MonoBehaviour
    private GameObject splashUI; // Imagem de splash no canvas
     void Start()
     {
-        splashUI = FindFirstObjectByType<UI_Manager>().splashUI;
     }
 
     // Update is called once per frame
@@ -18,5 +18,9 @@ public class SplashColision : MonoBehaviour
         splashUI.SetActive(false); // Ativa o splash
         splashUI.SetActive(true); // Ativa o splash
         Destroy(gameObject);
+    }
+    public void Init(GameObject splash)
+    {
+        splashUI = splash;
     }
 }
