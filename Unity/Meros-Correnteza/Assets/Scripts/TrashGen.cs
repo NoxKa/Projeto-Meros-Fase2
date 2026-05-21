@@ -1,14 +1,27 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditor.EditorTools;
 
 [System.Serializable]
 public class ObjectsObstaculos
 {
     public string nome;
     public GameObject objectPrefab;
-    public int tempoMed;
-    public int tempoVariavel;
+    public float tempoMed;
+    public float tempoVariavel;
+    public float tempoMin {get; private set;}
+    public float tempoMax {get; private set;}
+    public void StartObject()
+    {
+        tempoMin = tempoMed-tempoVariavel;
+        tempoMax = tempoMed+tempoVariavel;
+        if (tempoMin < 0)
+        {
+            tempoMin = 0;
+        }
+    }
 }
 
 public class TrashGen : MonoBehaviour
@@ -19,10 +32,17 @@ public class TrashGen : MonoBehaviour
     private int fase; // Numero da fase
     [SerializeField] private GameObject[] entulhosPrefabs; // Prefabs dos inimigos flutuantes
     [SerializeField] private GameObject splashUI;
+    private float genY;
     void Start()
     {
+        foreach(ObjectsObstaculos objeto in objetos)
+        {
+            objeto.StartObject();
+        }
         StartCoroutine(GerarEntulhos());
-        StartCoroutine(GerarTinta());
+        StartCoroutine(GerarTintas());
+        StartCoroutine(GerarPontos());
+        StartCoroutine(GerarRedes());
     }
 
     // Update is called once per frame
@@ -32,39 +52,63 @@ public class TrashGen : MonoBehaviour
     }
     private IEnumerator GerarEntulhos() // Corrotina de geração de entulhos
     {
-        ObjectsObstaculos entulho = new ObjectsObstaculos();
-        entulho = GetKey("entulho");
-        float genY; // Posição inicial Y
-        int entulhosIndex; // Tipo de entulho
+        ObjectsObstaculos entulho;
+        entulho = GetObject("entulho");
         float genTime; // Intervalo de spawn
-        //int chance; // Fazer chance
-        //Debug.Log(chance);
-        while (true)
+        while (entulho != null)
         {
-            genTime = Random.Range(1, 3); // Define um intervalo aleatorio
+            genTime = Random.Range(entulho.tempoMin, entulho.tempoMax); // Define um intervalo aleatorio
             yield return new WaitForSeconds(genTime);
-            entulhosIndex = Random.Range(0, entulhosPrefabs.Length); // Define o tipo de entulhoe (de 0 até o tamanho da lista)
             genY = Random.Range(-genYrange, genYrange); // Define a posição Y
-            Instantiate(entulhosPrefabs[entulhosIndex], new Vector2(genX, genY), entulhosPrefabs[entulhosIndex].transform.rotation); // Instancia a prefab
+            Instantiate(entulho.objectPrefab, new Vector2(genX, genY), entulho.objectPrefab.transform.rotation); // Instancia a prefab
         }
+        Debug.Log("Entulho vazio");
     }
-    private IEnumerator GerarTinta()
+    private IEnumerator GerarTintas()
     {
-        float genY; // Posição inicial Y
-        int entulhosIndex; // Tipo de entulho
+        ObjectsObstaculos tinta;
+        tinta = GetObject("tinta");
         float genTime; // Intervalo de spawn
-        //int chance; // Fazer chance
-        //Debug.Log(chance);
-        while (true)
+        while (tinta != null)
         {
-            genTime = Random.Range(1, 3); // Define um intervalo aleatorio
+            genTime = Random.Range(tinta.tempoMin, tinta.tempoMax); // Define um intervalo aleatorio
             yield return new WaitForSeconds(genTime);
-            entulhosIndex = Random.Range(0, entulhosPrefabs.Length); // Define o tipo de entulhoe (de 0 até o tamanho da lista)
             genY = Random.Range(-genYrange, genYrange); // Define a posição Y
-            Instantiate(entulhosPrefabs[entulhosIndex], new Vector2(genX, genY), entulhosPrefabs[entulhosIndex].transform.rotation); // Instancia a prefab
+            GameObject instance = Instantiate(tinta.objectPrefab, new Vector2(genX, genY), tinta.objectPrefab.transform.rotation); // Instancia a prefab
+            SplashColision splashColision = instance.GetComponent<SplashColision>();
+            splashColision.Init(splashUI);
         }
+        Debug.Log("Tinta vazio");
     }
-    private ObjectsObstaculos GetKey(string alvo)
+    private IEnumerator GerarPontos() // Corrotina de geração de entulhos
+    {
+        ObjectsObstaculos ponto;
+        ponto = GetObject("ponto");
+        float genTime; // Intervalo de spawn
+        while (ponto != null)
+        {
+            genTime = Random.Range(ponto.tempoMin, ponto.tempoMax); // Define um intervalo aleatorio
+            yield return new WaitForSeconds(genTime);
+            genY = Random.Range(-genYrange, genYrange); // Define a posição Y
+            Instantiate(ponto.objectPrefab, new Vector2(genX, genY), ponto.objectPrefab.transform.rotation); // Instancia a prefab
+        }
+        Debug.Log("Ponto vazio");
+    }
+    private IEnumerator GerarRedes() // Corrotina de geração de entulhos
+    {
+        ObjectsObstaculos rede;
+        rede = GetObject("rede");
+        float genTime; // Intervalo de spawn
+        while (rede != null)
+        {
+            genTime = Random.Range(rede.tempoMin, rede.tempoMax); // Define um intervalo aleatorio
+            yield return new WaitForSeconds(genTime);
+            genY = Random.Range(-genYrange, genYrange); // Define a posição Y
+            Instantiate(rede.objectPrefab, new Vector2(genX, genY), rede.objectPrefab.transform.rotation); // Instancia a prefab
+        }
+        Debug.Log("Entulho vazio");
+    }
+    private ObjectsObstaculos GetObject(string alvo)
     {
         foreach (ObjectsObstaculos objeto in objetos)
         {

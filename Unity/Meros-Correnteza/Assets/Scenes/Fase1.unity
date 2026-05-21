@@ -1507,15 +1507,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 128c5f0b476bb7a4484a01a68992da67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrashGen
-  objetosObstaculos:
+  objetos:
   - nome: entulho
     objectPrefab: {fileID: 1478922911425632306, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
     tempoMed: 5
     tempoVariavel: 3
-  - nome: entulho
-    objectPrefab: {fileID: 1478922911425632306, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
+  - nome: tinta
+    objectPrefab: {fileID: 500373990431399905, guid: e99231c4bcc1b2b41afbd07633006c1c, type: 3}
+    tempoMed: 10
+    tempoVariavel: 5
+  - nome: ponto
+    objectPrefab: {fileID: 1866929808743226936, guid: 7e06a78f25ce49d41b9b87b39416d1fd, type: 3}
     tempoMed: 5
     tempoVariavel: 3
+  - nome: rede
+    objectPrefab: {fileID: 6428282200412367488, guid: 037e8893a0b549748b8de3526c37eebb, type: 3}
+    tempoMed: 10
+    tempoVariavel: 5
   genX: 12
   genYrange: 4
   entulhosPrefabs:
