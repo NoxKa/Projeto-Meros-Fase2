@@ -26,7 +26,7 @@ public class TrashGen : MonoBehaviour
 {
     [SerializeField] private List<ObjectsObstaculos> objetos;
     [SerializeField] private float genX; // Posição inicial X
-    [SerializeField] private float genYrange; // Variação de altura (metade da tela)
+    [SerializeField] private Vector2 genYrange = new Vector2(); // Variação de altura (x = min, y = max)
     private int fase; // Numero da fase
     [SerializeField] private GameObject[] entulhosPrefabs; // Prefabs dos inimigos flutuantes
     [SerializeField] private GameObject splashUI;
@@ -51,7 +51,7 @@ public class TrashGen : MonoBehaviour
         {
             genTime = Random.Range(entulho.tempoMin, entulho.tempoMax); // Define um intervalo aleatorio
             yield return new WaitForSeconds(genTime);
-            genY = Random.Range(-genYrange, genYrange); // Define a posição Y
+            genY = Random.Range(genYrange.x, genYrange.y); // Define a posição Y
             Instantiate(entulho.objectPrefab, new Vector2(genX, genY), entulho.objectPrefab.transform.rotation); // Instancia a prefab
         }
         Debug.Log("Entulho vazio");
@@ -65,7 +65,7 @@ public class TrashGen : MonoBehaviour
         {
             genTime = Random.Range(tinta.tempoMin, tinta.tempoMax); // Define um intervalo aleatorio
             yield return new WaitForSeconds(genTime);
-            genY = Random.Range(-genYrange, genYrange); // Define a posição Y
+            genY = Random.Range(genYrange.x, genYrange.y); // Define a posição Y
             GameObject instance = Instantiate(tinta.objectPrefab, new Vector2(genX, genY), tinta.objectPrefab.transform.rotation); // Instancia a prefab
             SplashColision splashColision = instance.GetComponent<SplashColision>();
             splashColision.Init(splashUI);
@@ -81,7 +81,7 @@ public class TrashGen : MonoBehaviour
         {
             genTime = Random.Range(ponto.tempoMin, ponto.tempoMax); // Define um intervalo aleatorio
             yield return new WaitForSeconds(genTime);
-            genY = Random.Range(-genYrange, genYrange); // Define a posição Y
+            genY = Random.Range(genYrange.x, genYrange.y); // Define a posição Y
             Instantiate(ponto.objectPrefab, new Vector2(genX, genY), ponto.objectPrefab.transform.rotation); // Instancia a prefab
         }
         Debug.Log("Ponto vazio");
@@ -95,7 +95,7 @@ public class TrashGen : MonoBehaviour
         {
             genTime = Random.Range(rede.tempoMin, rede.tempoMax); // Define um intervalo aleatorio
             yield return new WaitForSeconds(genTime);
-            genY = Random.Range(-genYrange, genYrange); // Define a posição Y
+            genY = Random.Range(genYrange.x, genYrange.y); // Define a posição Y
             Instantiate(rede.objectPrefab, new Vector2(genX, genY), rede.objectPrefab.transform.rotation); // Instancia a prefab
         }
         Debug.Log("Entulho vazio");

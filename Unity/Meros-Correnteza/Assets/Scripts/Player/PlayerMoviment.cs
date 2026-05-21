@@ -6,8 +6,8 @@ using NUnit.Framework;
 public class PlayerMoviment : MonoBehaviour
 {
     [SerializeField] private int speed; // Velocidade do player
-    private float boundX = 9.5f; // Limite X
-    private float boundY = 4.3f; // Limite Y
+    [SerializeField] private Vector2 boundX = new Vector2(); // Limite X
+    [SerializeField] private Vector2 boundY = new Vector2(); // Limite Y
     private Rigidbody2D rigidBody;
     private Vector2 moveInput; // Input de movimento
     [SerializeField] private InputActionAsset InputActions; // Mapa de movimento do player
@@ -42,19 +42,19 @@ public class PlayerMoviment : MonoBehaviour
     {
         moveInput = moveAction.ReadValue<Vector2>(); // Pega o valor das teclas de movimento
         rigidBody.linearVelocity = moveInput * speed * Time.fixedDeltaTime; // Movimenta o player
-        if (transform.position.x < -boundX) // Trava nas bordas
+        if (transform.position.x < boundX.x) // Trava nas bordas
         {
-            transform.position = new Vector2(-boundX, transform.position.y);
-        }else if (transform.position.x > boundX)
+            transform.position = new Vector2(boundX.x, transform.position.y);
+        }else if (transform.position.x > boundX.y)
         {
-            transform.position = new Vector2(boundX, transform.position.y);
+            transform.position = new Vector2(boundX.y, transform.position.y);
         }
-        if (transform.position.y < -boundY)
+        if (transform.position.y < boundY.x)
         {
-            transform.position = new Vector2(transform.position.x, -boundY);
-        }else if (transform.position.y > boundY)
+            transform.position = new Vector2(transform.position.x, boundY.x);
+        }else if (transform.position.y > boundY.y)
         {
-            transform.position = new Vector2(transform.position.x, boundY);
+            transform.position = new Vector2(transform.position.x, boundY.y);
         }
     }
     public void StopPlayer(bool debater) // imobiliza o player
