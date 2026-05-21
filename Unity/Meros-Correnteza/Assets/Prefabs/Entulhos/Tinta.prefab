@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 316934618046222605}
   - component: {fileID: 5704327521271202327}
   - component: {fileID: 5243978964281743417}
+  - component: {fileID: -4035439750620293529}
   m_Layer: 0
   m_Name: Tinta
   m_TagString: Entulhos
@@ -179,4 +180,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295ecdd7ed45a64498569b981d8871f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SplashColision
-  splahUI: {fileID: 0}
+--- !u!114 &-4035439750620293529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500373990431399905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1e26078541032b43acde0d9861a7dca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationFloating
+  rangeY: 0.2
+  rangeSpeedY: 0.1

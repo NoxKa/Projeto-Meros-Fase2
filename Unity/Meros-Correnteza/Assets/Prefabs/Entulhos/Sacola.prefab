@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 3131059402361616426}
   - component: {fileID: 4521265310509864913}
   - component: {fileID: 4461483855553783357}
+  - component: {fileID: 8785899599645032919}
+  - component: {fileID: 7634564080189017325}
   m_Layer: 0
   m_Name: Sacola
   m_TagString: Entulhos
@@ -135,6 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66a21d6cf128a3a4d9084e9767bf606e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutLayout
+  maxX: -15
 --- !u!58 &4461483855553783357
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -171,6 +174,42 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.09572458, y: -0.024817389}
   m_Radius: 0.79071957
+--- !u!95 &8785899599645032919
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478922911425632306}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d5659b9648d577d4799f3515a424448e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7634564080189017325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478922911425632306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1e26078541032b43acde0d9861a7dca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationFloating
+  rangeY: 0.2
+  rangeSpeedY: 0.1
 --- !u!1 &5448025982136509611
 GameObject:
   m_ObjectHideFlags: 0
