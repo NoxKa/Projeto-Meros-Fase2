@@ -1,5 +1,3 @@
-using System.Threading;
-using UnityEditor.Rendering.LookDev;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
@@ -7,12 +5,12 @@ using NUnit.Framework;
 
 public class PlayerMoviment : MonoBehaviour
 {
-    public int speed; // Velocidade do player
+    [SerializeField] private int speed; // Velocidade do player
     private float boundX = 9.5f; // Limite X
     private float boundY = 4.3f; // Limite Y
     private Rigidbody2D rigidBody;
     private Vector2 moveInput; // Input de movimento
-    public InputActionAsset InputActions; // Mapa de movimento do player
+    [SerializeField] private InputActionAsset InputActions; // Mapa de movimento do player
     private InputAction moveAction;
     private Animator playerAnim;
     private bool isPreso = false; // Verifica se o player pode se mover
@@ -29,7 +27,7 @@ public class PlayerMoviment : MonoBehaviour
     {
         InputActions.FindActionMap("Player").Enable();
     }
-    void Osable()
+    void OnDisable()
     {
         InputActions.FindActionMap("Player").Disable();
     }

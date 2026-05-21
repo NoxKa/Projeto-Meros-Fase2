@@ -2,16 +2,7 @@ using UnityEngine;
 
 public class PrendeCollider : MonoBehaviour
 {
-    public bool isDebativel; // Verifica se o player pode ativamente escapar
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
+    [SerializeField] bool isDebativel; // Verifica se o player pode ativamente escapar
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -24,7 +15,7 @@ public class PrendeCollider : MonoBehaviour
             {
                 playerMoviment.StopPlayer(false); // Imobiliza o player (não pode se debater)
             }
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
     }
 }

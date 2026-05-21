@@ -8,15 +8,6 @@ public class UI_Manager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textHeal; // Text de "regeneração"
 
     private int pontosAtual = 0;
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
     public void AtualizarVida(int vida) // Altera o texto de vida
     {
         if(textVida != null)

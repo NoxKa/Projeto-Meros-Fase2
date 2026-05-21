@@ -1,8 +1,6 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEditor.EditorTools;
 
 [System.Serializable]
 public class ObjectsObstaculos
@@ -43,12 +41,6 @@ public class TrashGen : MonoBehaviour
         StartCoroutine(GerarTintas());
         StartCoroutine(GerarPontos());
         StartCoroutine(GerarRedes());
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
     private IEnumerator GerarEntulhos() // Corrotina de geração de entulhos
     {

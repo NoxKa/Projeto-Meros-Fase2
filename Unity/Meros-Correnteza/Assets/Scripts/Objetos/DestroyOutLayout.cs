@@ -2,19 +2,12 @@ using UnityEngine;
 
 public class DestroyOutLayout : MonoBehaviour
 {
-    private float maxX = -15; // Valor limite de X
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    [SerializeField] private float maxX = -15; // Valor limite de X
     void Update()
     {
         if (transform.position.x < maxX)
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
     }
 }

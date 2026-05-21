@@ -5,18 +5,11 @@ public class EntulhoSprite : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Transform transforme;
     [SerializeField] Sprite[] sprites;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         transforme = GetComponent<Transform>();
         SetSprite();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
     private void SetSprite()
     {

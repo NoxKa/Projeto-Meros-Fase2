@@ -1,20 +1,10 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class EntulhoColider : MonoBehaviour
 {
-    public int dano; // Dano do entulho
-    public bool isPonto; // Verifica se é um ponto
+    [SerializeField] private int dano; // Dano do entulho
+    [SerializeField] private bool isPonto; // Verifica se é um ponto
 
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))

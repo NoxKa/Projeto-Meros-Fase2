@@ -2,14 +2,7 @@ using UnityEngine;
 
 public class MoveLeft : MonoBehaviour
 {
-    public int speedX; // Velocidade
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    [SerializeField] int speedX; // Velocidade
     void Update()
     {
         transform.Translate(Vector2.left * Time.deltaTime * speedX); // Translata para a esquerda

@@ -1,11 +1,9 @@
-using Unity.VisualScripting;
-using UnityEditor;
 using UnityEngine;
 using System.Collections;
 
 public class PlayerVidas : MonoBehaviour
 {
-    public int vidaMax; // Vida maxima do player
+    [SerializeField] private int vidaMax; // Vida maxima do player
     private int vidaAtual; // Vida atual
     private int pontosHealMax = 3; // Quantidade máxima do medidor de "regeneração"
     // Jogador pega pontos e o valor de "regeneração" aumenta até o máximo, então o plyaer recupera vida
@@ -18,12 +16,6 @@ public class PlayerVidas : MonoBehaviour
         vidaAtual = vidaMax;
         playerAnim = GetComponent<Animator>();
         placar = FindAnyObjectByType<UI_Manager>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
     public void MudarVida(int vidaMod) // Altera a vida do player
     {
