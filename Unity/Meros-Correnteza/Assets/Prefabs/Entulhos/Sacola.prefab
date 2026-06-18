@@ -221,6 +221,7 @@ GameObject:
   - component: {fileID: 4520996992119895762}
   - component: {fileID: 3519186310830550720}
   - component: {fileID: 8094627842316365856}
+  - component: {fileID: 3939762679998989197}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -321,3 +322,15 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b40e603e9002b9d4888cce93ed8db178, type: 3}
   - {fileID: 21300000, guid: e1e755b19591a1840b24485876cbec64, type: 3}
   - {fileID: 21300000, guid: 36529fbe2d6b2fc45ac268b2539fcd21, type: 3}
+--- !u!114 &3939762679998989197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5448025982136509611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41fde3b9680f0354190abbfd1322ba3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteTurnScript

@@ -18,7 +18,5 @@ public class EntulhoSprite : MonoBehaviour
             int indice = Random.Range(0, sprites.Length);
             spriteRenderer.sprite = sprites[indice];
         }
-        int rotar = Random.Range(0, 360);
-        transforme.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, rotar);
     }
 }
