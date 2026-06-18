@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ecb0bdd8b379dbb429e4e3c745a1e8bc
+guid: f0b4f2a19e6e1f4419c212a6fa3533c7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9076655267392062350
-    second: SplashAzul_0
+      213: -2311732790715993668
+    second: LataVermelha_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SplashAzul_0
+      name: LataVermelha_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 9
-        width: 1901
-        height: 1057
+        x: 0
+        y: 0
+        width: 363
+        height: 565
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e83059120e1c6fd70800000000000000
-      internalID: 9076655267392062350
+      spriteID: cb130c166431befd0800000000000000
+      internalID: -2311732790715993668
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SplashAzul_0: 9076655267392062350
+      LataVermelha_0: -2311732790715993668
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

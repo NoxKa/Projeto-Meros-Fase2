@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 04a54425097acf94f84042433c93f208
+guid: ecb0bdd8b379dbb429e4e3c745a1e8bc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2673271010135927422
-    second: Fundo1Teste_0
+      213: 9076655267392062350
+    second: SplashAzul_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fundo1Teste_0
+      name: SplashAzul_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 3840
-        height: 1080
+        x: 11
+        y: 9
+        width: 1901
+        height: 1057
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7a6083f1dd591520800000000000000
-      internalID: 2673271010135927422
+      spriteID: e83059120e1c6fd70800000000000000
+      internalID: 9076655267392062350
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fundo1Teste_0: 2673271010135927422
+      SplashAzul_0: 9076655267392062350
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

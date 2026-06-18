@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 04a54425097acf94f84042433c93f208
+guid: e1ed740d106bfec4f9f736d6f061fb12
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2673271010135927422
-    second: Fundo1Teste_0
+      213: -6021499329196214424
+    second: LataAzul_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fundo1Teste_0
+      name: LataAzul_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 3840
-        height: 1080
+        width: 363
+        height: 565
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7a6083f1dd591520800000000000000
-      internalID: 2673271010135927422
+      spriteID: 867b10c63465f6ca0800000000000000
+      internalID: -6021499329196214424
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fundo1Teste_0: 2673271010135927422
+      LataAzul_0: -6021499329196214424
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
