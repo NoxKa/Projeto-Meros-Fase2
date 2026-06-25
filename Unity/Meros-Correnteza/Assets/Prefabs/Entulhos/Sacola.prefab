@@ -316,12 +316,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EntulhoSprite
   sprites:
-  - {fileID: 21300000, guid: 3cba4e6928674724f97c9ce38f688085, type: 3}
-  - {fileID: 21300000, guid: a9a8ec67078952344ad9ebd2e2e37d04, type: 3}
-  - {fileID: 21300000, guid: 59e33cc2751d1774c8dd075f6d4b6af8, type: 3}
-  - {fileID: 21300000, guid: b40e603e9002b9d4888cce93ed8db178, type: 3}
-  - {fileID: 21300000, guid: e1e755b19591a1840b24485876cbec64, type: 3}
-  - {fileID: 21300000, guid: 36529fbe2d6b2fc45ac268b2539fcd21, type: 3}
+  - cor: 
+    sprite: {fileID: 21300000, guid: a9a8ec67078952344ad9ebd2e2e37d04, type: 3}
+  - cor: 
+    sprite: {fileID: 21300000, guid: 59e33cc2751d1774c8dd075f6d4b6af8, type: 3}
+  - cor: 
+    sprite: {fileID: 21300000, guid: b40e603e9002b9d4888cce93ed8db178, type: 3}
+  - cor: 
+    sprite: {fileID: 21300000, guid: 3cba4e6928674724f97c9ce38f688085, type: 3}
+  - cor: 
+    sprite: {fileID: 21300000, guid: e1e755b19591a1840b24485876cbec64, type: 3}
+  - cor: 
+    sprite: {fileID: 21300000, guid: 36529fbe2d6b2fc45ac268b2539fcd21, type: 3}
 --- !u!114 &3939762679998989197
 MonoBehaviour:
   m_ObjectHideFlags: 0
