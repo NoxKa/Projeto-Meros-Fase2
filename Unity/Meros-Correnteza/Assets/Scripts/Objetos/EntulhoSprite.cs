@@ -23,13 +23,12 @@ public class EntulhoSprite : MonoBehaviour
     {
         if (sprites.Length > 0)
         {
-            int indice = Random.Range(0, sprites.Length);
+            indice = Random.Range(0, sprites.Length);
             spriteRenderer.sprite = sprites[indice].sprite;
         }
     }
     public string CorSprite()
     {
-        Debug.Log("Return "+sprites[indice].cor);
         return sprites[indice].cor;
     }
 }

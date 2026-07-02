@@ -1,8 +1,10 @@
 using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
 
 public class SplashAnim : MonoBehaviour
 {
-    private SpriteRenderer spriteRenderer;
+    private Image image;
     [SerializeField] private SpritesIndex[] sprites;
     public void OnFinishAnimation() // Desativa o splash quando acaba a animação
     {
@@ -10,16 +12,12 @@ public class SplashAnim : MonoBehaviour
     }
     public void CorTinta(string cor)
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        Debug.Log("Chamada "+cor);
-        Debug.Log(spriteRenderer);
+        image = GetComponent<Image>();
         foreach (SpritesIndex indice in sprites)
         {
-            Debug.Log(indice.cor);
             if(indice.cor == cor)
             {
-                Debug.Log("Troca");
-                spriteRenderer.sprite = indice.sprite;
+                image.sprite = indice.sprite;
                 return;
             }
         }
