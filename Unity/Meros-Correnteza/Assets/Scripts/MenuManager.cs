@@ -21,4 +21,8 @@ public class MenuManager : MonoBehaviour
         menu.SetActive(false);
         menuMain.SetActive(true);
     }
+    public void Sair()
+    {
+        Debug.Log("Sair");
+    }
 }
