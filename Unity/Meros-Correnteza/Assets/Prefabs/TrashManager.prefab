@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5947298078011219919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7918086653656331289}
+  - component: {fileID: 648847943448677260}
+  m_Layer: 0
+  m_Name: TrashManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7918086653656331289
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5947298078011219919}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.17646, y: 0.7346, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &648847943448677260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5947298078011219919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c5f0b476bb7a4484a01a68992da67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashGen
+  objetos:
+  - nome: entulho
+    objectPrefab: {fileID: 1478922911425632306, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
+    tempoMed: 5
+    tempoVariavel: 3
+  - nome: tinta
+    objectPrefab: {fileID: 500373990431399905, guid: e99231c4bcc1b2b41afbd07633006c1c, type: 3}
+    tempoMed: 10
+    tempoVariavel: 5
+  - nome: ponto
+    objectPrefab: {fileID: 1866929808743226936, guid: 7e06a78f25ce49d41b9b87b39416d1fd, type: 3}
+    tempoMed: 5
+    tempoVariavel: 3
+  - nome: rede
+    objectPrefab: {fileID: 6428282200412367488, guid: 037e8893a0b549748b8de3526c37eebb, type: 3}
+    tempoMed: 10
+    tempoVariavel: 5
+  genX: 12
+  genYrange: {x: -4.51, y: 2}
+  entulhosPrefabs:
+  - {fileID: 1478922911425632306, guid: f08ef55caca2c6241844029dab9e7398, type: 3}
+  - {fileID: 500373990431399905, guid: e99231c4bcc1b2b41afbd07633006c1c, type: 3}
+  - {fileID: 6428282200412367488, guid: 037e8893a0b549748b8de3526c37eebb, type: 3}
+  - {fileID: 1866929808743226936, guid: 7e06a78f25ce49d41b9b87b39416d1fd, type: 3}
+  splashUI: {fileID: 0}

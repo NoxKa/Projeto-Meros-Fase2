@@ -9,6 +9,7 @@ public class MenuManager : MonoBehaviour
 
     public void Jogar()
     {
+        GameManager.Instance.ChangeFase(1);
         SceneManager.LoadScene("Fase1"); // Inicia fase 1
     }
     public void  OnMenu(GameObject menu)

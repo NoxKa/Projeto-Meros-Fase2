@@ -460,6 +460,50 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2165100236623643431, guid: c59eb878bc966f34bbcead84051c5876, type: 3}
   m_PrefabInstance: {fileID: 314298853}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &341485089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 341485090}
+  - component: {fileID: 341485091}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &341485090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341485089}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.1312, y: -0.74476, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &341485091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341485089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 241e80871dc82024c8d1dfec452cce62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
 --- !u!1 &408435970
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,6 +515,7 @@ GameObject:
   - component: {fileID: 408435973}
   - component: {fileID: 408435972}
   - component: {fileID: 408435971}
+  - component: {fileID: 408435974}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -552,6 +597,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &408435974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408435970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1 &484480362
 GameObject:
   m_ObjectHideFlags: 0
@@ -1930,8 +2019,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8672170180252329057, guid: c59eb878bc966f34bbcead84051c5876, type: 3}
       propertyPath: m_text
-      value: EU, Maya, Myster L, Pedro senhor das pedras,  Prof incrivel do If (Cardeonia
-        Albina)
+      value: "Equipe de Desenvolvimento\r\nHenrique Maia Staff - Arte\r\nLara Judithe
+        Paszeuck Eyros - Arte\r\nKa dos Anjos - Desenvolvimento\r\n\r\nOrienta\xE7\xE3o
+        Acad\xEAmica\r\nProf\xAA. Carla Hamel Wojcik Garcia, Prof\xAA. Denise Maria
+        Vecino Sato,\r\nProf. F\xE1bio Luiz Pessoa Albini e Prof\xAA M\xF4nia Naomy
+        Nakagawa\r\n\r\nApoio Projeto Meros do Brasil"
       objectReference: {fileID: 0}
     - target: {fileID: 8851875856887283394, guid: c59eb878bc966f34bbcead84051c5876, type: 3}
       propertyPath: m_Name
@@ -2221,3 +2313,4 @@ SceneRoots:
   - {fileID: 1405181665}
   - {fileID: 700162428}
   - {fileID: 850007363}
+  - {fileID: 341485090}

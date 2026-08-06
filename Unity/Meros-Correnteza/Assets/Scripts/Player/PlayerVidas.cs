@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerVidas : MonoBehaviour
 {
@@ -23,6 +24,10 @@ public class PlayerVidas : MonoBehaviour
         {
             vidaAtual += vidaMod; // Altera a vida
             placar.AtualizarVida(vidaAtual); // Altera a vida no UI
+            if (vidaAtual <= 0)
+            {
+                SceneManager.LoadScene("GameOver");
+            }
             if (vidaMod < 0) // Quando o player toma dano, deixa ele imortal
             {
                 StartCoroutine(Imortal());
