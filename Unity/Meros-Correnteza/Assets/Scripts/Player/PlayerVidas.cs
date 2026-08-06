@@ -6,7 +6,7 @@ public class PlayerVidas : MonoBehaviour
 {
     [SerializeField] private int vidaMax; // Vida maxima do player
     private int vidaAtual; // Vida atual
-    private int pontosHealMax = 3; // Quantidade máxima do medidor de "regeneração"
+    [SerializeField] private int pontosHealMax = 3; // Quantidade máxima do medidor de "regeneração"
     // Jogador pega pontos e o valor de "regeneração" aumenta até o máximo, então o plyaer recupera vida
     private int pontosHeal = 0; // Valor atual de regeneração
     private bool imortal = false; // Player pode tomar dano?
