@@ -4,6 +4,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     private int faseAtual;
+    [SerializeField] private int faseTest;
     void Awake()
     {
         if (Instance == null)
@@ -13,6 +14,10 @@ public class GameManager : MonoBehaviour
         }else
         {
             Destroy(gameObject);
+        }
+        if (faseAtual == 0)
+        {
+            faseAtual = faseTest;
         }
     }
 

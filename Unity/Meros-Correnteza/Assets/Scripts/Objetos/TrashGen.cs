@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 
 [System.Serializable]
 public class ObjectsObstaculos
@@ -27,8 +28,9 @@ public class TrashGen : MonoBehaviour
     [SerializeField] private List<ObjectsObstaculos> objetos;
     [SerializeField] private float genX; // Posição inicial X
     [SerializeField] private Vector2 genYrange = new Vector2(); // Variação de altura (x = min, y = max)
-    private int fase; // Numero da fase
-    [SerializeField] private GameObject[] entulhosPrefabs; // Prefabs dos inimigos flutuantes
+    [SerializeField] private float genYMobilia;
+    [SerializeField] private int fase; // Numero da fase
+    //[SerializeField] private GameObject[] entulhosPrefabs; // Prefabs dos inimigos flutuantes
     [SerializeField] private GameObject splashUI;
     private float genY;
     void Start()
@@ -41,6 +43,10 @@ public class TrashGen : MonoBehaviour
         StartCoroutine(GerarTintas());
         StartCoroutine(GerarPontos());
         StartCoroutine(GerarRedes());
+        if (fase >= 2)
+        {
+            StartCoroutine(GerarMobilia());
+        }
     }
     private IEnumerator GerarEntulhos() // Corrotina de geração de entulhos
     {
@@ -110,5 +116,19 @@ public class TrashGen : MonoBehaviour
             }
         }
         return null;
+    }
+    private IEnumerator GerarMobilia() // Corrotina de geração de entulhos
+    {
+        ObjectsObstaculos mobilia;
+        mobilia = GetObject("mobilia");
+        float genTime; // Intervalo de spawn
+        while (mobilia != null)
+        {
+            genTime = Random.Range(mobilia.tempoMin, mobilia.tempoMax); // Define um intervalo aleatorio
+            yield return new WaitForSeconds(genTime);
+            genY = Random.Range(genYMobilia-0.2f, genYMobilia+0.2f); // Define a posição Y
+            Instantiate(mobilia.objectPrefab, new Vector2(genX, genY), mobilia.objectPrefab.transform.rotation); // Instancia a prefab
+        }
+        Debug.Log("Mobilia vazio");
     }
 }

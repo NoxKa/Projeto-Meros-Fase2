@@ -504,6 +504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 241e80871dc82024c8d1dfec452cce62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  faseTest: 2
 --- !u!1 &408435970
 GameObject:
   m_ObjectHideFlags: 0
