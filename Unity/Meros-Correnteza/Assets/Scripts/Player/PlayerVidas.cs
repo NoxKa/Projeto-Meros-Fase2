@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
 
 public class PlayerVidas : MonoBehaviour
 {
@@ -55,5 +57,31 @@ public class PlayerVidas : MonoBehaviour
             }
         }
         placar.HealPoints(pontosHeal); // Altera o HealPoints no placar
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Entulhos"))
+        {
+            EntulhoColider entulhoColider = other.gameObject.GetComponent<EntulhoColider>();
+            string tipoEntulho = entulhoColider.GetTipo();
+            Debug.Log(tipoEntulho);
+            switch(tipoEntulho)
+            {
+                case "entulho":
+                    MudarVida(entulhoColider.GetDano());
+                    break;
+                case "ponto":
+                    placar.AtualizarPontos(1);
+                    HealPoints(1);
+                    break;
+                case "splash":
+                    other.gameObject.GetComponent<SplashColision>().OnSplash();
+                    break;
+                case "rede":
+                    other.gameObject.GetComponent<PrendeCollider>().OnPrender();
+                    break;
+            }
+            Destroy(other.gameObject);
+        }
     }
 }

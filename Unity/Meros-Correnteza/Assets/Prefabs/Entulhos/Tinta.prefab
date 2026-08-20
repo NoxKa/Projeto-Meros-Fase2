@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5704327521271202327}
   - component: {fileID: 5243978964281743417}
   - component: {fileID: -4035439750620293529}
+  - component: {fileID: 5579555764513416953}
   m_Layer: 0
   m_Name: Tinta
   m_TagString: Entulhos
@@ -195,6 +196,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AnimationFloating
   rangeY: 0.2
   rangeSpeedY: 0.1
+--- !u!114 &5579555764513416953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500373990431399905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7cccb231a0bd54a9bd0781dec40c95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EntulhoColider
+  dano: 0
+  tipo: splash
 --- !u!1 &7108317929076705545
 GameObject:
   m_ObjectHideFlags: 0

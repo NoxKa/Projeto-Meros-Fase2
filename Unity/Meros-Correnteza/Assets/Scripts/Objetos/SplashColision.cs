@@ -5,7 +5,7 @@ public class SplashColision : MonoBehaviour
    private GameObject splashUI; // Imagem de splash no canvas
    private SplashAnim splashAnim;
    private EntulhoSprite entulhoSprite;
-    private void OnTriggerEnter2D(Collider2D other)
+    public void OnSplash()
     {
         entulhoSprite = GetComponentInChildren<EntulhoSprite>();
         splashAnim = splashUI.GetComponent<SplashAnim>();
@@ -13,7 +13,6 @@ public class SplashColision : MonoBehaviour
         Debug.Log("Change colors "+entulhoSprite.CorSprite());
         splashAnim.CorTinta(entulhoSprite.CorSprite());
         splashUI.SetActive(true); // Ativa o splash
-        Destroy(gameObject);
     }
     public void Init(GameObject splash)
     {

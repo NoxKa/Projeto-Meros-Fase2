@@ -119,6 +119,7 @@ GameObject:
   - component: {fileID: 7023739630427757272}
   - component: {fileID: 8261151629462194062}
   - component: {fileID: 1829047131621149263}
+  - component: {fileID: 8387628674758280748}
   m_Layer: 0
   m_Name: Rede
   m_TagString: Entulhos
@@ -244,7 +245,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -300,3 +301,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AnimationFloating
   rangeY: 0.2
   rangeSpeedY: 0.1
+--- !u!114 &8387628674758280748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6428282200412367488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7cccb231a0bd54a9bd0781dec40c95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EntulhoColider
+  dano: 0
+  tipo: rede

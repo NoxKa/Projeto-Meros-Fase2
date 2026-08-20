@@ -123,8 +123,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db7cccb231a0bd54a9bd0781dec40c95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EntulhoColider
-  dano: 1
-  isPonto: 0
+  dano: -1
+  tipo: entulho
 --- !u!114 &4521265310509864913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,7 +168,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0

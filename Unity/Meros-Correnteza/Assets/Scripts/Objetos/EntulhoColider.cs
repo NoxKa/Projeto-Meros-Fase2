@@ -3,9 +3,18 @@ using UnityEngine;
 public class EntulhoColider : MonoBehaviour
 {
     [SerializeField] private int dano; // Dano do entulho
-    [SerializeField] private bool isPonto; // Verifica se é um ponto
+    [SerializeField] private string tipo;
+    public int GetDano()
+    {
+        return dano;
+    }
+    public string GetTipo()
+    {
+        return tipo;
+    }
+}
 
-    private void OnTriggerEnter2D(Collider2D other)
+/*private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
@@ -23,5 +32,4 @@ public class EntulhoColider : MonoBehaviour
                 Destroy(gameObject);
             }
         }
-    }
-}
+    }*/

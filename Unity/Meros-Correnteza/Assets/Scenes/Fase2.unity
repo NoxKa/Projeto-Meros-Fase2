@@ -561,7 +561,7 @@ PrefabInstance:
       objectReference: {fileID: 1741797755}
     - target: {fileID: 648847943448677260, guid: f4b269fed7402744287bb31d7d042d6a, type: 3}
       propertyPath: genYMobilia
-      value: -3.3
+      value: -2.95
       objectReference: {fileID: 0}
     - target: {fileID: 648847943448677260, guid: f4b269fed7402744287bb31d7d042d6a, type: 3}
       propertyPath: objetos.Array.size
@@ -668,6 +668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6407612099767197579, guid: 11786e45a8d230c43b0d0c4eedfea50a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7396584983847343059, guid: 11786e45a8d230c43b0d0c4eedfea50a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.43
@@ -726,11 +730,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 398531086986549134, guid: 972c8f7ceecfb2b4ba7a04401cfe3ab2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.78
+      value: 4.18
       objectReference: {fileID: 0}
     - target: {fileID: 398531086986549134, guid: 972c8f7ceecfb2b4ba7a04401cfe3ab2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.26
+      value: -2.93
       objectReference: {fileID: 0}
     - target: {fileID: 398531086986549134, guid: 972c8f7ceecfb2b4ba7a04401cfe3ab2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -764,6 +768,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 480156829734407410, guid: 972c8f7ceecfb2b4ba7a04401cfe3ab2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8540030301292120133, guid: c5171c416f91b3149b5d76f5bfd72c3e, type: 3}
+    - target: {fileID: 3103070418354247829, guid: 972c8f7ceecfb2b4ba7a04401cfe3ab2, type: 3}
+      propertyPath: sprites.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 206764484127515855, guid: bada3bb6ca02bf04f98a8e3501b77024, type: 3}
+    - target: {fileID: 3103070418354247829, guid: 972c8f7ceecfb2b4ba7a04401cfe3ab2, type: 3}
+      propertyPath: sprites.Array.data[2].sprite
+      value: 
+      objectReference: {fileID: -6288179971597629913, guid: d03aa755d962d4944aa149fca08e27ba, type: 3}
     - target: {fileID: 3800550108526001036, guid: 972c8f7ceecfb2b4ba7a04401cfe3ab2, type: 3}
       propertyPath: m_Name
       value: Mobilia

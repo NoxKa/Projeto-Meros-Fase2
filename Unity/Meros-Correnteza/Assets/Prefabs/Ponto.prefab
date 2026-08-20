@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EntulhoColider
   dano: 0
-  isPonto: 1
+  tipo: ponto
 --- !u!114 &3044299981801357013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,7 +285,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
