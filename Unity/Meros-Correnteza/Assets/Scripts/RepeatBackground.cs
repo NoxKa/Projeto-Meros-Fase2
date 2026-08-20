@@ -10,7 +10,7 @@ public class RepeatBackground : MonoBehaviour
     void Start()
     {
         startPos = transform.position;    
-        repeatWidth = GetComponent<BoxCollider2D>().size.x;
+        repeatWidth = GetComponent<SpriteRenderer>().bounds.size.x;
     }
 
     void Update()
@@ -21,3 +21,16 @@ public class RepeatBackground : MonoBehaviour
         }
     }
 }
+/*void Start()
+    {
+        startPos = transform.position;    
+        repeatWidth = GetComponent<BoxCollider2D>().size.x;
+    }
+
+    void Update()
+    {
+        if (transform.position.x < startPos.x - repeatWidth)
+        {
+            transform.position = startPos;
+        }
+    }*/

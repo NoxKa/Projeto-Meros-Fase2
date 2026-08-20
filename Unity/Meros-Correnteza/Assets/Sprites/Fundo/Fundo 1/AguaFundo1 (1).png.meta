@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: aa864a92f16800b46a1db98ef38617fa
+guid: 7ffb62afaca819846acdccca20b8f60b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2551232133409028031
-    second: AguaFundo1_0
+      213: -5257300480854833643
+    second: AguaFundo1 (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AguaFundo1_0
+      name: AguaFundo1 (1)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 5000
-        height: 2229
+        height: 2522
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 148c79444e3389cd0800000000000000
-      internalID: -2551232133409028031
+      spriteID: 516482921115a07b0800000000000000
+      internalID: -5257300480854833643
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AguaFundo1_0: -2551232133409028031
+      AguaFundo1 (1)_0: -5257300480854833643
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
