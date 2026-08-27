@@ -27,6 +27,7 @@ public class PlayerVidas : MonoBehaviour
         {
             vidaAtual += vidaMod; // Altera a vida
             placar.AtualizarVida(vidaAtual); // Altera a vida no UI
+            placar.VidasManager().SetVida(vidaMax, vidaAtual);
             if (vidaAtual <= 0)
             {
                 SceneManager.LoadScene("GameOver");
