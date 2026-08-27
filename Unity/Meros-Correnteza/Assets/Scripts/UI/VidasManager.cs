@@ -33,7 +33,7 @@ public class VidasManager : MonoBehaviour
         {
             index = i/2;
             Debug.Log(index);
-            vidaAnimator = vidas[index].GetComponent<Animator>();
+            //vidaAnimator = vidas[index].GetComponent<Animator>();
             //vidaAnimator.SetInteger("vidas", );
         }
     }
