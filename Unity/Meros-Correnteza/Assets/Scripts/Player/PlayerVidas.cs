@@ -19,6 +19,7 @@ public class PlayerVidas : MonoBehaviour
         vidaAtual = vidaMax;
         playerAnim = GetComponent<Animator>();
         placar = FindAnyObjectByType<UI_Manager>();
+        placar.VidasManager().Init(vidaMax);
     }
     public void MudarVida(int vidaMod) // Altera a vida do player
     {
