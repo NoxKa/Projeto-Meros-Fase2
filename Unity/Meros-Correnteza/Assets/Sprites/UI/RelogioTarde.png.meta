@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: a57069f149584bb4a8ad97fbfda434db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3534004834645574985
+    second: RelogioTarde_0
+  - first:
+      213: -5429679036313999908
+    second: RelogioTarde_1
+  - first:
+      213: 1533972123539671421
+    second: RelogioTarde_2
+  - first:
+      213: -1620384746056124558
+    second: RelogioTarde_3
+  - first:
+      213: 6686628680726477924
+    second: RelogioTarde_4
+  - first:
+      213: 999863767650953951
+    second: RelogioTarde_5
+  - first:
+      213: 7785133889689785545
+    second: RelogioTarde_6
+  - first:
+      213: 8619551890393389057
+    second: RelogioTarde_7
+  - first:
+      213: -2719726917837655293
+    second: RelogioTarde_8
+  - first:
+      213: -7083920453170696834
+    second: RelogioTarde_9
+  - first:
+      213: 3323506172475115977
+    second: RelogioTarde_10
+  - first:
+      213: -3918257652694370877
+    second: RelogioTarde_11
+  - first:
+      213: -6620894605839300138
+    second: RelogioTarde_12
+  - first:
+      213: -4924122922032191319
+    second: RelogioTarde_13
+  - first:
+      213: 6849143482559196943
+    second: RelogioTarde_14
+  - first:
+      213: -537244508450850908
+    second: RelogioTarde_15
+  - first:
+      213: 6540791926976572659
+    second: RelogioTarde_16
+  - first:
+      213: -3799181256320708162
+    second: RelogioTarde_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RelogioTarde_0
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1289
+        width: 93
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94500935cae4b0130800000000000000
+      internalID: 3534004834645574985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioTarde_1
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1321
+        width: 95
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd56e142fa7e5a4b0800000000000000
+      internalID: -5429679036313999908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioTarde_2
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1266
+        width: 91
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d790feed483c94510800000000000000
+      internalID: 1533972123539671421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioTarde_3
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 321
+        width: 916
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277fcdb98ac3389e0800000000000000
+      internalID: -1620384746056124558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioTarde_4
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1196
+        width: 82
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46cf3ab9b5dabcc50800000000000000
+      internalID: 6686628680726477924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioTarde_5
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1158
+        width: 77
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda6e969cca30ed00800000000000000
+      internalID: 999863767650953951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioTarde_6
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1057
+        width: 62
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c490d7760a5a0c60800000000000000
+      internalID: 7785133889689785545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioTarde_7
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 1008
+        width: 55
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108d1f5a6ccce9770800000000000000
+      internalID: 8619551890393389057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioTarde_8
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 887
+        width: 36
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303f73827c6914ad0800000000000000
+      internalID: -2719726917837655293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioTarde_9
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 832
+        width: 26
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7de2ab41ebd0bd90800000000000000
+      internalID: -7083920453170696834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioTarde_10
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 704
+        width: 15
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9823351477f1e20800000000000000
+      internalID: 3323506172475115977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioTarde_11
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 686
+        width: 18
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c532b8bc6d8f99c0800000000000000
+      internalID: -3918257652694370877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioTarde_12
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 528
+        width: 44
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d906ab5f6bdd14a0800000000000000
+      internalID: -6620894605839300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioTarde_13
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 511
+        width: 46
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8a9e1aa400aabb0800000000000000
+      internalID: -4924122922032191319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioTarde_14
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 275
+        width: 87
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f6f9585bb0d0f50800000000000000
+      internalID: 6849143482559196943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioTarde_15
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 267
+        width: 88
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7f14c47f25b88f0800000000000000
+      internalID: -537244508450850908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioTarde_16
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 226
+        width: 94
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc6e2d5a9f85ca50800000000000000
+      internalID: 6540791926976572659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioTarde_17
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 224
+        width: 95
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb19eabb6c8964bc0800000000000000
+      internalID: -3799181256320708162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RelogioTarde_0: 3534004834645574985
+      RelogioTarde_1: -5429679036313999908
+      RelogioTarde_10: 3323506172475115977
+      RelogioTarde_11: -3918257652694370877
+      RelogioTarde_12: -6620894605839300138
+      RelogioTarde_13: -4924122922032191319
+      RelogioTarde_14: 6849143482559196943
+      RelogioTarde_15: -537244508450850908
+      RelogioTarde_16: 6540791926976572659
+      RelogioTarde_17: -3799181256320708162
+      RelogioTarde_2: 1533972123539671421
+      RelogioTarde_3: -1620384746056124558
+      RelogioTarde_4: 6686628680726477924
+      RelogioTarde_5: 999863767650953951
+      RelogioTarde_6: 7785133889689785545
+      RelogioTarde_7: 8619551890393389057
+      RelogioTarde_8: -2719726917837655293
+      RelogioTarde_9: -7083920453170696834
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

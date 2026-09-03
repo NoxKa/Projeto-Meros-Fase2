@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: d2c14e0910648084d989bc133870bfdf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1734680087976000029
+    second: RelogioDia_0
+  - first:
+      213: 342986330513917750
+    second: RelogioDia_1
+  - first:
+      213: -217850525370302007
+    second: RelogioDia_2
+  - first:
+      213: 8420359344787424518
+    second: RelogioDia_3
+  - first:
+      213: -8349483559701630102
+    second: RelogioDia_4
+  - first:
+      213: 8178473688677514767
+    second: RelogioDia_5
+  - first:
+      213: -7054490452353127322
+    second: RelogioDia_6
+  - first:
+      213: -4418454628456133517
+    second: RelogioDia_7
+  - first:
+      213: -6438369101467608916
+    second: RelogioDia_8
+  - first:
+      213: 8394898720400570613
+    second: RelogioDia_9
+  - first:
+      213: -4203568101793442388
+    second: RelogioDia_10
+  - first:
+      213: 8899768743482846798
+    second: RelogioDia_11
+  - first:
+      213: -7889806166266675510
+    second: RelogioDia_12
+  - first:
+      213: -4878603950093348634
+    second: RelogioDia_13
+  - first:
+      213: -2023336316511024176
+    second: RelogioDia_14
+  - first:
+      213: -8342679205772521480
+    second: RelogioDia_15
+  - first:
+      213: -1417907304010122183
+    second: RelogioDia_16
+  - first:
+      213: 6089514147839995926
+    second: RelogioDia_17
+  - first:
+      213: 8198128340164910462
+    second: RelogioDia_18
+  - first:
+      213: 2742057889942655115
+    second: RelogioDia_19
+  - first:
+      213: 2327305094537986805
+    second: RelogioDia_20
+  - first:
+      213: -6474429993387203800
+    second: RelogioDia_21
+  - first:
+      213: 3375617710105204754
+    second: RelogioDia_22
+  - first:
+      213: 7167077041356255123
+    second: RelogioDia_23
+  - first:
+      213: 8570250876348995705
+    second: RelogioDia_24
+  - first:
+      213: -2369248811119505051
+    second: RelogioDia_25
+  - first:
+      213: -2525992738874268804
+    second: RelogioDia_26
+  - first:
+      213: -8993945711846281178
+    second: RelogioDia_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RelogioDia_0
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1289
+        width: 93
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e54f3596ad2de7e0800000000000000
+      internalID: -1734680087976000029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_1
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1321
+        width: 95
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637c819104882c400800000000000000
+      internalID: 342986330513917750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_2
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1266
+        width: 91
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1cb25f91a0afcf0800000000000000
+      internalID: -217850525370302007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_3
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1196
+        width: 82
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605023b06302bd470800000000000000
+      internalID: 8420359344787424518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_4
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 1165
+        width: 145
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63350e90fca02c80800000000000000
+      internalID: -8349483559701630102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_5
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1158
+        width: 77
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e708a0d76cf7170800000000000000
+      internalID: 8178473688677514767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_6
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1057
+        width: 62
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c6b145f4a691e90800000000000000
+      internalID: -7054490452353127322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_7
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1021
+        width: 157
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c01b6ecee7ea2c0800000000000000
+      internalID: -4418454628456133517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_8
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 411
+        width: 750
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca81c260a6156a6a0800000000000000
+      internalID: -6438369101467608916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_9
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1007
+        width: 158
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f87bda78eba08470800000000000000
+      internalID: 8394898720400570613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_10
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 1008
+        width: 55
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca55077351de9a5c0800000000000000
+      internalID: -4203568101793442388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_11
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 887
+        width: 36
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e6b6ae484528b70800000000000000
+      internalID: 8899768743482846798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_12
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 832
+        width: 26
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acefcf00817c18290800000000000000
+      internalID: -7889806166266675510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_13
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 704
+        width: 15
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e05eda2e87bb4cb0800000000000000
+      internalID: -4878603950093348634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_14
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 700
+        width: 95
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db8639175aabe3e0800000000000000
+      internalID: -2023336316511024176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_15
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 715
+        width: 94
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff04e8b679d83c80800000000000000
+      internalID: -8342679205772521480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_16
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 686
+        width: 18
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c7b04c1d4925ce0800000000000000
+      internalID: -1417907304010122183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_17
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 528
+        width: 44
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610f7b49adc428450800000000000000
+      internalID: 6089514147839995926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_18
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 397
+        width: 157
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d97923a4a95c170800000000000000
+      internalID: 8198128340164910462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_19
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 391
+        width: 158
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80d6937f1fbd0620800000000000000
+      internalID: 2742057889942655115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_20
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 511
+        width: 46
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2c4e327af3c4020800000000000000
+      internalID: 2327305094537986805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_21
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 379
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823650959343626a0800000000000000
+      internalID: -6474429993387203800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_22
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 290
+        width: 145
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218965c2c6a98de20800000000000000
+      internalID: 3375617710105204754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_23
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 366
+        width: 71
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39fa5e7a892967360800000000000000
+      internalID: 7167077041356255123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_24
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 275
+        width: 87
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97813c0d3c5afe670800000000000000
+      internalID: 8570250876348995705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_25
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 267
+        width: 88
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56194b452ccbe1fd0800000000000000
+      internalID: -2369248811119505051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_26
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 226
+        width: 94
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73ee2ebcfed1fcd0800000000000000
+      internalID: -2525992738874268804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioDia_27
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 224
+        width: 95
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620314ce6061f2380800000000000000
+      internalID: -8993945711846281178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RelogioDia_0: -1734680087976000029
+      RelogioDia_1: 342986330513917750
+      RelogioDia_10: -4203568101793442388
+      RelogioDia_11: 8899768743482846798
+      RelogioDia_12: -7889806166266675510
+      RelogioDia_13: -4878603950093348634
+      RelogioDia_14: -2023336316511024176
+      RelogioDia_15: -8342679205772521480
+      RelogioDia_16: -1417907304010122183
+      RelogioDia_17: 6089514147839995926
+      RelogioDia_18: 8198128340164910462
+      RelogioDia_19: 2742057889942655115
+      RelogioDia_2: -217850525370302007
+      RelogioDia_20: 2327305094537986805
+      RelogioDia_21: -6474429993387203800
+      RelogioDia_22: 3375617710105204754
+      RelogioDia_23: 7167077041356255123
+      RelogioDia_24: 8570250876348995705
+      RelogioDia_25: -2369248811119505051
+      RelogioDia_26: -2525992738874268804
+      RelogioDia_27: -8993945711846281178
+      RelogioDia_3: 8420359344787424518
+      RelogioDia_4: -8349483559701630102
+      RelogioDia_5: 8178473688677514767
+      RelogioDia_6: -7054490452353127322
+      RelogioDia_7: -4418454628456133517
+      RelogioDia_8: -6438369101467608916
+      RelogioDia_9: 8394898720400570613
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

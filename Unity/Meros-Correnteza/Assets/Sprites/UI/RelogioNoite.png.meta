@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 26de7324c9997f4428d8c889801ba5f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7582352285244487183
+    second: RelogioNoite_0
+  - first:
+      213: -1503852424715928832
+    second: RelogioNoite_1
+  - first:
+      213: 553610885322560728
+    second: RelogioNoite_2
+  - first:
+      213: 1767193224966170620
+    second: RelogioNoite_3
+  - first:
+      213: -8922772931758823388
+    second: RelogioNoite_4
+  - first:
+      213: -434094330445755209
+    second: RelogioNoite_5
+  - first:
+      213: 5695013091296360793
+    second: RelogioNoite_6
+  - first:
+      213: 5917089880845481737
+    second: RelogioNoite_7
+  - first:
+      213: -6079379308329418167
+    second: RelogioNoite_8
+  - first:
+      213: -5174489241223091928
+    second: RelogioNoite_9
+  - first:
+      213: -5397762052250074381
+    second: RelogioNoite_10
+  - first:
+      213: 4654667954864793919
+    second: RelogioNoite_11
+  - first:
+      213: 6964074081850761140
+    second: RelogioNoite_12
+  - first:
+      213: -7531258691227641116
+    second: RelogioNoite_13
+  - first:
+      213: -2562791036180127155
+    second: RelogioNoite_14
+  - first:
+      213: 6129191149010014815
+    second: RelogioNoite_15
+  - first:
+      213: 8857788766265878961
+    second: RelogioNoite_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RelogioNoite_0
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1289
+        width: 93
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9812405c216c690800000000000000
+      internalID: -7582352285244487183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioNoite_1
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1321
+        width: 95
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b723eff2e312be0800000000000000
+      internalID: -1503852424715928832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioNoite_2
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1266
+        width: 91
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4d073ca22dea700800000000000000
+      internalID: 553610885322560728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioNoite_3
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 340
+        width: 902
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7e59700e4568810800000000000000
+      internalID: 1767193224966170620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioNoite_4
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1196
+        width: 82
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4286b0f1b41fb2480800000000000000
+      internalID: -8922772931758823388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioNoite_5
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1057
+        width: 62
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc05c2a189c9f9f0800000000000000
+      internalID: -434094330445755209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioNoite_6
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 1008
+        width: 55
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9593be9ab30c80f40800000000000000
+      internalID: 5695013091296360793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioNoite_7
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 887
+        width: 36
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9077ad385e9bd1250800000000000000
+      internalID: 5917089880845481737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioNoite_8
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 832
+        width: 26
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9424a20aab4b1aba0800000000000000
+      internalID: -6079379308329418167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioNoite_9
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 704
+        width: 15
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82921d263758038b0800000000000000
+      internalID: -5174489241223091928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioNoite_10
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 686
+        width: 18
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f20d85130c4715b0800000000000000
+      internalID: -5397762052250074381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioNoite_11
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 528
+        width: 44
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f392c1de7d3b89040800000000000000
+      internalID: 4654667954864793919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioNoite_12
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 511
+        width: 46
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf183eea7c55a060800000000000000
+      internalID: 6964074081850761140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioNoite_13
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 275
+        width: 87
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea9dc56f189b7790800000000000000
+      internalID: -7531258691227641116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioNoite_14
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 267
+        width: 88
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42adee71232f6cd0800000000000000
+      internalID: -2562791036180127155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioNoite_15
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 226
+        width: 94
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52d53d40e24f0550800000000000000
+      internalID: 6129191149010014815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioNoite_16
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 224
+        width: 95
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b929bcc3ff2dea70800000000000000
+      internalID: 8857788766265878961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RelogioNoite_0: -7582352285244487183
+      RelogioNoite_1: -1503852424715928832
+      RelogioNoite_10: -5397762052250074381
+      RelogioNoite_11: 4654667954864793919
+      RelogioNoite_12: 6964074081850761140
+      RelogioNoite_13: -7531258691227641116
+      RelogioNoite_14: -2562791036180127155
+      RelogioNoite_15: 6129191149010014815
+      RelogioNoite_16: 8857788766265878961
+      RelogioNoite_2: 553610885322560728
+      RelogioNoite_3: 1767193224966170620
+      RelogioNoite_4: -8922772931758823388
+      RelogioNoite_5: -434094330445755209
+      RelogioNoite_6: 5695013091296360793
+      RelogioNoite_7: 5917089880845481737
+      RelogioNoite_8: -6079379308329418167
+      RelogioNoite_9: -5174489241223091928
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
