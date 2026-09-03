@@ -22,19 +22,26 @@ public class VidasManager : MonoBehaviour
     }
     public void SetVida(int vidaMax, int vidaAtual)
     {
-        int index;
         Animator vidaAnimator;
+        int index;
+        //Debug.Log(vidaAtual);
         /*foreach(GameObject vida in vidas)
         {
             vidaAnimator = GetComponent<Animator>();
             vidaAnimator.SetInteger("vidas", vidaAtual/3);
         }*/
-        for (int i = 0; i<vidaMax; i++)
+        /*for (int i = 0; i<vidaMax; i++)
         {
             index = i/2;
             Debug.Log(index);
             //vidaAnimator = vidas[index].GetComponent<Animator>();
             //vidaAnimator.SetInteger("vidas", );
+        }*/
+        for (int i = 0; i< vidaMax; i+=2)
+        {
+            index = i/2;
+            vidaAnimator = vidas[index].GetComponent<Animator>();
+            vidaAnimator.SetInteger("vidas", vidaAtual-(2*index));
         }
     }
 }

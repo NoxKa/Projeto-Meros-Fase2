@@ -17,14 +17,17 @@ public class ProgressBar : MonoBehaviour
         progressBar.value = timeAtual; // Define o progresso da barra pelo tempo que passou
         if(progressBar.value >= progressBar.maxValue)
         {
-            GameManager.Instance.ChangeFase(GameManager.Instance.GetFase()+1);
-            if (GameManager.Instance.GetFase() < 4)
+            if (GameManager.Instance != null)
             {
-                SceneManager.LoadScene("Fase"+GameManager.Instance.GetFase());
-            }
-            else
-            {
-                SceneManager.LoadScene("menu");
+                GameManager.Instance.ChangeFase(GameManager.Instance.GetFase()+1);
+                if (GameManager.Instance.GetFase() < 4)
+                {
+                    SceneManager.LoadScene("Fase"+GameManager.Instance.GetFase());
+                }
+                else
+                {
+                    SceneManager.LoadScene("menu");
+                }
             }
         }
     }

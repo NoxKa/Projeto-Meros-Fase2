@@ -66,7 +66,7 @@ public class PlayerVidas : MonoBehaviour
         {
             EntulhoColider entulhoColider = other.gameObject.GetComponent<EntulhoColider>();
             string tipoEntulho = entulhoColider.GetTipo();
-            Debug.Log(tipoEntulho);
+            //Debug.Log(tipoEntulho);
             switch(tipoEntulho)
             {
                 case "entulho":

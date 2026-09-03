@@ -111,3 +111,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f48b927d3a1946d42b65e084697f2fa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VidaInt
+  mirroed: 1
