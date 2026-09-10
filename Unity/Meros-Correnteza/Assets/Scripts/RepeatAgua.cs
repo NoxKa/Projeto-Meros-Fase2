@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class RepeatAgua : MonoBehaviour
 {
-    private float screenWidth;
     private float startPositionX;
     private float largura;
     void Awake()
@@ -14,8 +13,6 @@ public class RepeatAgua : MonoBehaviour
     {
         //screenWidth = Camera.main.orthographicSize * 2f * Camera.main.aspect;
         largura = GetComponent<SpriteRenderer>().bounds.size.x;
-        Debug.Log(screenWidth);
-        Debug.Log(startPositionX);
     }
 
     // Update is called once per frame
@@ -23,9 +20,7 @@ public class RepeatAgua : MonoBehaviour
     {
         if (transform.position.x < startPositionX-largura/3)
         {
-            Debug.Log(transform.position.x);
             transform.position = new Vector2(startPositionX, transform.position.y);
-            Debug.Log("Repeat");
         }
     }
 }
