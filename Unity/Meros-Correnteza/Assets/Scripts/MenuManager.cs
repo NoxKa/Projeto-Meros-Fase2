@@ -24,6 +24,7 @@ public class MenuManager : MonoBehaviour
     }
     public void Sair()
     {
+        Application.Quit();
         Debug.Log("Sair");
     }
 }
