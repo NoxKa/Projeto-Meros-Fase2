@@ -395,6 +395,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8832441631520805259, guid: 8e90baa27e935cd419ea525515217c0c, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8832441631520805259, guid: 8e90baa27e935cd419ea525515217c0c, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8832441631520805259, guid: 8e90baa27e935cd419ea525515217c0c, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9059712880030100531, guid: 8e90baa27e935cd419ea525515217c0c, type: 3}
       propertyPath: m_Name
       value: Agua
@@ -590,6 +602,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1263156544568821937, guid: cc5a71ec0b0663a40b9b28ad9f113d94, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 26de7324c9997f4428d8c889801ba5f8, type: 3}
     - target: {fileID: 3898381844135621829, guid: cc5a71ec0b0663a40b9b28ad9f113d94, type: 3}
       propertyPath: m_Name
       value: Canvas
