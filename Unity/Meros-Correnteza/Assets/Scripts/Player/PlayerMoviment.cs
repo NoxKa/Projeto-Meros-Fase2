@@ -85,4 +85,9 @@ public class PlayerMoviment : MonoBehaviour
     {
         playerAnim.SetBool("isStruggled", isPreso); // Variavel de preso
     }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        rigidBody.linearVelocity = Vector2.zero;
+        rigidBody.totalForce = Vector2.zero;
+    }
 }

@@ -136,8 +136,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMoviment
   speed: 400
-  boundX: {x: -9.58, y: 9.54}
-  boundY: {x: -3.56, y: 2.2}
+  boundX: {x: -7.5, y: 7.5}
+  boundY: {x: -3.7, y: 2.2}
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
 --- !u!70 &6407612099767197579
 CapsuleCollider2D:
@@ -189,6 +189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerVidas
   vidaMax: 6
+  pontosHealMax: 10
 --- !u!95 &7828779601868086440
 Animator:
   serializedVersion: 7
