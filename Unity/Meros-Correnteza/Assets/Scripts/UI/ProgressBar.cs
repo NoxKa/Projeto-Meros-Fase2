@@ -1,12 +1,18 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class ProgressBar : MonoBehaviour
 {
     [SerializeField] private Slider progressBar; // Slider da progressBar
     private float timeAtual; // Tempo que já passou
     [SerializeField] private float timeFase; // Tempo da fase
+    private InputAction skip;
+    void Awake()
+    {
+        skip = InputSystem.actions.FindAction("Sheet");
+    }
     void Start()
     {
         progressBar.maxValue = timeFase; // Define o valor máximo para o tempo da fase atual
@@ -26,9 +32,13 @@ public class ProgressBar : MonoBehaviour
                 }
                 else
                 {
-                    SceneManager.LoadScene("menu");
+                    SceneManager.LoadScene("win");
                 }
             }
+        }
+        if (skip.WasPressedThisFrame())
+        {
+            timeAtual = timeFase;
         }
     }
 }

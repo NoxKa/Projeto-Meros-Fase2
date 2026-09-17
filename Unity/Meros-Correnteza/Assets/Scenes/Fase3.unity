@@ -336,7 +336,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7586010314030415824, guid: 11786e45a8d230c43b0d0c4eedfea50a, type: 3}
       propertyPath: boundY.y
-      value: 2.19
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8808170208125187567, guid: 11786e45a8d230c43b0d0c4eedfea50a, type: 3}
       propertyPath: vidaMax
@@ -673,6 +673,18 @@ PrefabInstance:
     - target: {fileID: 4763365262873990344, guid: cc5a71ec0b0663a40b9b28ad9f113d94, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4938588762530304410, guid: cc5a71ec0b0663a40b9b28ad9f113d94, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4938588762530304410, guid: cc5a71ec0b0663a40b9b28ad9f113d94, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4938588762530304410, guid: cc5a71ec0b0663a40b9b28ad9f113d94, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6287431120499601269, guid: cc5a71ec0b0663a40b9b28ad9f113d94, type: 3}
       propertyPath: m_AnchorMax.x
