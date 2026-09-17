@@ -801,6 +801,10 @@ PrefabInstance:
       propertyPath: splashUI
       value: 
       objectReference: {fileID: 1113965504}
+    - target: {fileID: 1482066756476383456, guid: f4b269fed7402744287bb31d7d042d6a, type: 3}
+      propertyPath: startX
+      value: -11
+      objectReference: {fileID: 0}
     - target: {fileID: 5947298078011219919, guid: f4b269fed7402744287bb31d7d042d6a, type: 3}
       propertyPath: m_Name
       value: TrashManager

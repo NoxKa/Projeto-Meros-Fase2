@@ -45,6 +45,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: ArvoresFrente
+    uniqueID: 2420581197
+    locked: 0
   - name: Player
     uniqueID: 3160222579
     locked: 0
