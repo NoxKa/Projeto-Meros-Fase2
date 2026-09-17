@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7918086653656331289}
   - component: {fileID: 648847943448677260}
+  - component: {fileID: 1482066756476383456}
   m_Layer: 0
   m_Name: TrashManager
   m_TagString: Untagged
@@ -62,7 +63,24 @@ MonoBehaviour:
     tempoMed: 10
     tempoVariavel: 5
   genX: 13
-  genYrange: {x: -4.51, y: 2}
+  genYrange: {x: -3.83, y: 2.25}
   genYMobilia: 0
   fase: 0
   splashUI: {fileID: 0}
+--- !u!114 &1482066756476383456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5947298078011219919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c69782d6f87b040837c2a45679490f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArvoresGen
+  genX: 13
+  genYrange: {x: 2.6, y: 3.6}
+  fase: 1
+  arvorePrefab: {fileID: 8230955965078526140, guid: c354774e7368ed748b7acc77625f5c54, type: 3}
+  genMedDistance: {x: 1.4, y: 3}

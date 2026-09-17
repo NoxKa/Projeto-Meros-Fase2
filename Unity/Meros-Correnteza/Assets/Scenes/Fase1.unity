@@ -318,6 +318,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 8149296680583862373, guid: 0552a437f2d8c804596956d6cd386db7, type: 3}
+    - {fileID: 1901001062014782723, guid: 0552a437f2d8c804596956d6cd386db7, type: 3}
+    - {fileID: 5889482588738604818, guid: 0552a437f2d8c804596956d6cd386db7, type: 3}
+    - {fileID: 1321501786406001353, guid: 0552a437f2d8c804596956d6cd386db7, type: 3}
+    - {fileID: 6168237743933554665, guid: 0552a437f2d8c804596956d6cd386db7, type: 3}
+    - {fileID: 6369585228779337298, guid: 0552a437f2d8c804596956d6cd386db7, type: 3}
+    - {fileID: 3494717097050554673, guid: 0552a437f2d8c804596956d6cd386db7, type: 3}
+    - {fileID: 4952754876571469184, guid: 0552a437f2d8c804596956d6cd386db7, type: 3}
+    - {fileID: 7863998245482637504, guid: 0552a437f2d8c804596956d6cd386db7, type: 3}
+    - {fileID: 5417850258136936429, guid: 0552a437f2d8c804596956d6cd386db7, type: 3}
+    - {fileID: 958633031819680552, guid: 0552a437f2d8c804596956d6cd386db7, type: 3}
+    - {fileID: 3112025728376109674, guid: 0552a437f2d8c804596956d6cd386db7, type: 3}
+    - {fileID: 3689052833386872425, guid: 0552a437f2d8c804596956d6cd386db7, type: 3}
+    - {fileID: 8423531561497535657, guid: 0552a437f2d8c804596956d6cd386db7, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0552a437f2d8c804596956d6cd386db7, type: 3}
@@ -788,14 +801,6 @@ PrefabInstance:
       propertyPath: splashUI
       value: 
       objectReference: {fileID: 1113965504}
-    - target: {fileID: 648847943448677260, guid: f4b269fed7402744287bb31d7d042d6a, type: 3}
-      propertyPath: genYrange.x
-      value: -3.83
-      objectReference: {fileID: 0}
-    - target: {fileID: 648847943448677260, guid: f4b269fed7402744287bb31d7d042d6a, type: 3}
-      propertyPath: genYrange.y
-      value: 2.25
-      objectReference: {fileID: 0}
     - target: {fileID: 5947298078011219919, guid: f4b269fed7402744287bb31d7d042d6a, type: 3}
       propertyPath: m_Name
       value: TrashManager
