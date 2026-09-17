@@ -7,7 +7,6 @@ public class ArvoresGen : MonoBehaviour
     [SerializeField] private float genX; // Posição inicial X
     [SerializeField] private float startX;
     [SerializeField] private Vector2 genYrange = new Vector2(); // Variação de altura (x = min, y = max)
-    [SerializeField] private int fase; // Numero da fase
     [SerializeField] private GameObject arvorePrefab;
     [SerializeField] private Vector2 genMedDistance = new Vector2();
     private bool genAutomaticaOn = false;
